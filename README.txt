@@ -38,3 +38,26 @@ CONFIGURATION
 - To change default settings (files per archive, etc.), edit the variables at the top of the run_zippy.bat file.
 
 - To exclude more file types, add their extensions to the EXCLUDED_EXTENSIONS set inside the zippy.py script.
+
+
+--------------------
+USE CASES
+--------------------
+
+Context Mode: Ideal for preparing large sets of text-based files for analysis.
+
+
+- AI/LLM Data Preparation: Consolidate an entire codebase or set of documents into a few large text files. This makes it easy to copy-paste the contents into a Large Language Model for analysis, summarization, or training. 
+
+- Codebase Review: Create a "flat" representation of your project's code (e.g., all .py files) in a single document, making it simple to search and analyze without navigating the directory structure. 
+
+- Project Documentation: Combine all project documentation files (.txt, .md, etc.) into one searchable context file.
+
+
+Direct Mode: Standard file archiving for backup and transfer. 
+
+- Project Backup: Create size-limited archives of a project folder, useful for storing on systems with file size restrictions.
+
+- Easy File Transfer: Break down a large directory into smaller, more manageable ZIP files for easier uploading or sharing.
+
+- Version Snapshots: Quickly create a complete, versioned archive of your project's state while preserving the original folder structure. 
