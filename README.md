@@ -1,4 +1,4 @@
-# Zippy Archive Utility
+# ZipPy Archive Utility
 
 A robust Python tool to archive files from a directory and its subfolders into multiple, size-limited ZIP files. It is designed to handle large sets of files efficiently by segmenting directories into manageable archives.
 
